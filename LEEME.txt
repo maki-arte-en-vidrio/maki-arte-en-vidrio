@@ -1,0 +1,9 @@
+MAKI – Taller | Sitio web institucional (primera versión)
+
+1. Abre index.html en tu navegador para revisar la web sin conexión.
+2. Para publicarla gratis, crea un repositorio en GitHub y sube TODO el contenido de esta carpeta (index.html, styles.css, script.js y assets/).
+3. En el repositorio, entra a Settings > Pages > Build and deployment > Deploy from a branch > main > /(root) > Save.
+4. El sitio tendrá una URL similar a https://USUARIO.github.io/NOMBRE-REPOSITORIO/.
+5. La etiqueta noindex del sitio solicita no aparecer en buscadores, pero NO es una protección de acceso. Cualquiera con la URL puede entrar y las imágenes pueden descargarse.
+6. Antes de publicar, agrega un teléfono/correo de contacto verificado y confirma los textos y títulos de las obras.
+7. No se han incluido imágenes ajenas: todos los archivos visuales provienen de las fotografías proporcionadas.

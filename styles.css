@@ -32,3 +32,9 @@
 .project-photo button{height:auto;min-height:300px;display:flex;align-items:center;justify-content:center}
 .project-photo img{width:100%;height:auto;max-height:760px;object-fit:contain}
 @media(max-width:600px){.project-gallery{grid-template-columns:1fr}.project-photo button{height:auto;min-height:220px}}
+
+/* MAKI 2.1 — Galerías documentales, sin recorte ni distorsión */
+.project-gallery{grid-template-columns:repeat(2,minmax(0,1fr));align-items:start}
+.project-photo button{width:100%;height:auto;min-height:0;display:block}
+.project-photo img{display:block;width:100%;height:auto;max-height:none;object-fit:contain}
+@media(max-width:650px){.project-gallery{grid-template-columns:1fr}}

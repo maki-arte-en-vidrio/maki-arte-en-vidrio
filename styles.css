@@ -44,3 +44,14 @@
 
 /* Actualización 2.4: contenido editorial sin fotografías por proceso */
 .craft-editorial{max-width:850px;margin:0 auto 3rem;display:grid;gap:1.8rem}.craft-editorial-block{padding:0 0 1.6rem;border-bottom:1px solid rgba(120,120,120,.22)}.craft-editorial-block h3{font-size:clamp(1.25rem,2vw,1.65rem);margin:0 0 .6rem}.craft-editorial-block p{line-height:1.85;margin:0;max-width:75ch}
+
+/* MAKI 2.5 — Portada limpia, vitral sin recuadro y composición equilibrada */
+.hero-editorial{background:#fff!important;grid-template-columns:minmax(0,45%) minmax(0,55%);height:min(760px,calc(100svh - 84px));}
+.hero-editorial .hero-photo{background-color:transparent!important;background-size:contain!important;background-position:center center!important; margin:0 4.5vw 0 0;min-width:0;}
+.hero-editorial .hero-content{display:flex;flex-direction:column;align-items:flex-start;justify-content:center;padding:40px clamp(35px,5.3vw,100px);max-width:750px;align-self:stretch;}
+.hero-editorial .hero-content .eyebrow{margin-bottom:27px;}
+.hero-editorial h1{font-size:clamp(56px,5.7vw,100px);margin-bottom:28px;}
+.hero-editorial .hero-content>p:not(.eyebrow){max-width:440px;}
+.hero-editorial .hero-index{background:transparent!important;}
+@media(max-width:800px){.hero-editorial{grid-template-columns:minmax(0,48%) minmax(0,52%)}.hero-editorial .hero-photo{margin-right:2vw}.hero-editorial .hero-content{padding:30px 25px}}
+@media(max-width:650px){.hero-editorial{height:auto;min-height:0}.hero-editorial .hero-content{align-self:auto;padding:55px 26px 20px}.hero-editorial .hero-photo{margin:0 14px 15px;min-height:360px}.hero-editorial h1{font-size:clamp(52px,11vw,75px)}}

@@ -68,3 +68,19 @@
 .feature-philosophy .feature-copy strong{color:#fff;font-weight:600}
 @media(max-width:1050px){.feature-philosophy{grid-template-columns:minmax(0,1fr) minmax(0,1.15fr)}.feature-philosophy .feature-text{padding:38px}.feature-philosophy .feature-text h2{font-size:clamp(27px,3vw,38px)}}
 @media(max-width:750px){.feature-philosophy{grid-template-columns:1fr}.feature-philosophy .feature-image{height:390px;min-height:0}.feature-philosophy .feature-text{padding:48px 26px 56px}.feature-philosophy .feature-text h2{font-size:clamp(27px,6.5vw,42px);white-space:normal}.feature-philosophy .feature-copy{font-size:15px;line-height:1.75;text-align:left}}
+
+/* MAKI 2.8 — Mejor legibilidad y equilibrio vertical en Oficio y detalle */
+@media(min-width:751px){
+  .feature-philosophy{min-height:0;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr)}
+  .feature-philosophy .feature-image{min-height:0;position:relative}
+  .feature-philosophy .feature-image img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+  .feature-philosophy .feature-text{padding:clamp(32px,3.1vw,55px) clamp(36px,4vw,72px);justify-content:center}
+  .feature-philosophy .feature-text .eyebrow{margin-bottom:20px}
+  .feature-philosophy .feature-text h2{margin-bottom:14px}
+  .feature-philosophy .feature-text h3{margin-bottom:19px}
+  .feature-philosophy .feature-copy{font-size:clamp(16px,1.15vw,17px);line-height:1.65;max-width:680px;hyphens:auto;text-align:justify;text-align-last:left}
+  .feature-philosophy .feature-copy p{margin-bottom:14px}
+}
+@media(max-width:750px){
+  .feature-philosophy .feature-copy{font-size:16px;line-height:1.72}
+}

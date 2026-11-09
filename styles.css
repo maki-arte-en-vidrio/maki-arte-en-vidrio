@@ -55,3 +55,16 @@
 .hero-editorial .hero-index{background:transparent!important;}
 @media(max-width:800px){.hero-editorial{grid-template-columns:minmax(0,48%) minmax(0,52%)}.hero-editorial .hero-photo{margin-right:2vw}.hero-editorial .hero-content{padding:30px 25px}}
 @media(max-width:650px){.hero-editorial{height:auto;min-height:0}.hero-editorial .hero-content{align-self:auto;padding:55px 26px 20px}.hero-editorial .hero-photo{margin:0 14px 15px;min-height:360px}.hero-editorial h1{font-size:clamp(52px,11vw,75px)}}
+
+/* 2.7 — Ajuste exclusivo de la sección «Oficio y detalle» */
+.feature-philosophy{grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);min-height:720px}
+.feature-philosophy .feature-image{min-height:720px}
+.feature-philosophy .feature-text{padding:clamp(38px,4.1vw,76px);align-items:flex-start}
+.feature-philosophy .feature-text h2{font-size:clamp(29px,2.85vw,51px);letter-spacing:-.035em;line-height:1.14;white-space:nowrap;margin:0 0 18px}
+.feature-philosophy .feature-text h3{font-family:Georgia,serif;font-size:clamp(17px,1.45vw,23px);font-weight:400;line-height:1.35;margin:0 0 24px;color:#f0e5df}
+.feature-philosophy .feature-copy{max-width:610px;width:100%;font-size:clamp(13px,1.02vw,15px);line-height:1.75;color:#ded5d1;text-align:justify;text-align-last:left;hyphens:auto;overflow-wrap:break-word}
+.feature-philosophy .feature-copy p{margin:0 0 17px}
+.feature-philosophy .feature-copy p:last-child{margin-bottom:0}
+.feature-philosophy .feature-copy strong{color:#fff;font-weight:600}
+@media(max-width:1050px){.feature-philosophy{grid-template-columns:minmax(0,1fr) minmax(0,1.15fr)}.feature-philosophy .feature-text{padding:38px}.feature-philosophy .feature-text h2{font-size:clamp(27px,3vw,38px)}}
+@media(max-width:750px){.feature-philosophy{grid-template-columns:1fr}.feature-philosophy .feature-image{height:390px;min-height:0}.feature-philosophy .feature-text{padding:48px 26px 56px}.feature-philosophy .feature-text h2{font-size:clamp(27px,6.5vw,42px);white-space:normal}.feature-philosophy .feature-copy{font-size:15px;line-height:1.75;text-align:left}}

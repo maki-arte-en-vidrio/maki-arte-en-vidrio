@@ -136,3 +136,25 @@ body{font-size:16px;line-height:1.6}
   .intro h2,.section-heading h2{font-size:clamp(27px,7vw,37px)}
   .craft-card h3{font-size:21px}
 }
+
+/* MAKI 3.3 — Portadas de Nuestro oficio: proporción contenida, sin recortes */
+.craft-cover{
+  height:clamp(210px,22vw,270px);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:#e5e0d9;
+  padding:12px;
+}
+.craft-cover img{
+  display:block;
+  width:100%;
+  height:100%;
+  object-fit:contain;
+  object-position:center;
+  transition:transform .35s ease;
+}
+.craft-card:hover .craft-cover img{transform:scale(1.015)}
+@media(max-width:750px){
+  .craft-cover{height:clamp(220px,58vw,300px);padding:10px}
+}
